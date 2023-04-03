@@ -16,11 +16,11 @@ function App() {
         {token ? (
           <>
             <Route path="/" element={<Login />} />
-            <Route path="/home" element={<Class />} />
-            <Route path="/home/eventManage" element={<Event/> }/>
-            <Route path="/home/stucapstone" element={<Stucapstone />} />
-            <Route path="/home/capstone/:userId" element={<Capstone />} />
-            <Route path="/home/batchCreate" element={<Batches />} />
+            <Route exact path="/home" element={<Class />} />
+            <Route path="/eventManage" element={<Event/> }/>
+            <Route path="/stucapstone" element={<Stucapstone />} />
+            <Route path="/capstone/:userId" element={<Capstone />} />
+            <Route path="/batchCreate" element={<Batches />} />
           </>
         ) : (
           <Route path="*" element={<Login />} />

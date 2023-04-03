@@ -23,7 +23,6 @@ function Batches() {
         },
       });
       setBatch(data.data);
-      console.log(data.data);
     } catch (error) {
       console.log(error);
     }
@@ -117,7 +116,7 @@ function Batches() {
               />
             </div>
             <div className="mb-3">
-              <label htmlFor="exampleInputEmail1" className="form-label">
+              <label htmlFor="exampleInputEmail2" className="form-label">
                 Email address
               </label>
               <input
@@ -126,15 +125,15 @@ function Batches() {
                 value={formikStu.values.email}
                 onChange={formikStu.handleChange}
                 className="form-control"
-                id="exampleInputEmail1"
+                id="exampleInputEmail2"
                 aria-describedby="emailHelp"
               />
               <div id="emailHelp" className="form-text">
                 We'll never share your email with anyone else.
               </div>
             </div>
-            <div class="mb-3">
-              <label for="exampleInputPassword1" class="form-label">
+            <div className="mb-3">
+              <label htmlFor="exampleInputPassword1" className="form-label">
                 Password
               </label>
               <input
@@ -142,7 +141,7 @@ function Batches() {
                 value={formikStu.values.password}
                 onChange={formikStu.handleChange}
                 type="password"
-                class="form-control"
+                className="form-control"
                 id="exampleInputPassword1"
               />
             </div>
@@ -160,7 +159,7 @@ function Batches() {
                 <form onSubmit={formik.handleSubmit}>
                   <div className="mb-3">
                     <label
-                      htmlFor="exampleFormControlInput1"
+                      htmlFor="exampleFormControlInput3"
                       className="form-label"
                     >
                       Enter batch name
@@ -171,7 +170,7 @@ function Batches() {
                       value={formik.values.batchName}
                       onChange={formik.handleChange}
                       className="form-control"
-                      id="exampleFormControlInput1"
+                      id="exampleFormControlInput3"
                       placeholder="create a batch"
                       required
                     />

@@ -29,7 +29,7 @@ export default function Sidebar() {
               </Link>
             </li>
             <li>
-              <Link to={"/home/eventManage"}>
+              <Link to={"/eventManage"}>
                 <span className="iconx">
                   <Icon icon="bi:calendar-event-fill" />
                 </span>
@@ -37,7 +37,7 @@ export default function Sidebar() {
               </Link>
             </li>
             <li>
-              <Link to={"/home/batchCreate"}>
+              <Link to={"/batchCreate"}>
                 <span className="iconx">
                   <Icon icon="fluent:contact-card-group-16-filled" />
                 </span>
@@ -56,7 +56,7 @@ export default function Sidebar() {
               </Link>
             </li>
             <li>
-              <Link to={"/home/stucapstone"}>
+              <Link to={"/stucapstone"}>
                 <span className="iconx">
                   <Icon icon="fluent:clipboard-task-list-ltr-24-filled" />
                 </span>
