@@ -1,4 +1,3 @@
-import { faUserTie } from "@fortawesome/free-solid-svg-icons";
 import { faUserCircle } from "@fortawesome/free-solid-svg-icons";
 import DropdownButton from "react-bootstrap/DropdownButton";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
