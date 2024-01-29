@@ -11,4 +11,6 @@ password : abd
 #userId and password
 
 email : gobinath@test.com
-password : gobinath123# zen-class-event-for-student-frontend
+password : gobinath123
+
+# zen-class-event-for-student-frontend
