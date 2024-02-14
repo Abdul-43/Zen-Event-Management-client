@@ -65,6 +65,7 @@ function Login() {
                       className="form-control"
                       id="exampleInputEmail1"
                       aria-describedby="emailHelp"
+                      placeholder="admin@zen.com"
                     />
                   </div>
                   <div className="mb-3">
@@ -79,8 +80,10 @@ function Login() {
                       value={formik.values.password}
                       onChange={formik.handleChange}
                       type="password"
+                      place
                       className="form-control"
                       id="exampleInputPassword1"
+                      placeholder="admin123"
                     />
                   </div>
 
